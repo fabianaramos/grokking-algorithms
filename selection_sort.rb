@@ -13,7 +13,7 @@ end
 
 def selection_sort(arr)
   new_arr = []
-  for i in 1...arr.size do
+  for i in 1..arr.size do
     min = search_min(arr)
     new_arr.append(arr.delete_at(min))
   end
